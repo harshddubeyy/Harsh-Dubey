@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal Portfolio Website">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Website, Harsh Dubey, GitHub">
+  <meta name="author" content="Harsh Dubey">
+
+  <title>Harsh Dubey</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- favicon & manifest -->
+  <link rel="shortcut icon" href="assets/icons/favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+
+  <!-- Matrix Background -->
+  <canvas class="matrix-bg" id="matrix"></canvas>
+
+  <!-- Terminal UI -->
+  <div class="terminal">
+
+    <header>
+      <div class="terminal-prompt">$ whoami</div>
+      <h1>Harsh Dubey</h1>
+      <p>Full Stack Developer | Open Source Contributor | Linux Enthusiast</p>
+    </header>
+
+    <section class="section">
+      <div class="terminal-prompt">$ cat about.txt</div>
+      <p>
+        I build elegant solutions to complex problems using JavaScript and Python.
+        I am passionate about learning new technologies and contributing to open
+        source projects.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="terminal-prompt">$ ls projects/</div>
+
+      <div class="projects">
+        <div class="project">
+          <h3>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              E-Commerce Platform
+            </a>
+          </h3>
+          <p>
+            An innovative e-commerce web application designed to deliver a seamless
+            online shopping experience with secure authentication, product
+            management, and checkout functionality.
+          </p>
+          <p><strong>Tech:</strong> HTML, CSS, JavaScript, Node.js</p>
+        </div>
+
+        <div class="project">
+          <h3>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Portfolio Website
+            </a>
+          </h3>
+          <p>
+            A terminal-inspired personal portfolio showcasing projects, skills,
+            and contact information with a Matrix-style animated background.
+          </p>
+          <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="terminal-prompt">$ cat skills.txt</div>
+      <p><strong>Languages:</strong> Python, JavaScript, C, C++, Java</p>
+      <p><strong>Tools:</strong> Linux, Postman, Git</p>
+      <p><strong>Frameworks:</strong> React, Node.js</p>
+    </section>
+
+    <section class="section">
+      <div class="terminal-prompt">$ ls contact/</div>
+      <p>
+        <a href="mailto:hddubey7727@gmail.com">Email</a> |
+        <a href="https://github.com/harshddubeyy" target="_blank" rel="noopener noreferrer">GitHub</a> |
+        <a href="https://www.linkedin.com/in/hddubey" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+    </section>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
